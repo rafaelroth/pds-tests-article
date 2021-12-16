@@ -32,7 +32,9 @@ O objetivo desse teste é verificar se ao buscar um código fonte, o programa es
 
 ###### Teste 2
 Abaixo, há um teste que verifica se uma variável declarada está sendo usada:
+
 ![image](https://user-images.githubusercontent.com/32281559/146292973-71ee86e6-3089-4271-9109-c7fa04b4980d.png)
+
 No teste, é criada uma string que simula a declaração de duas variaves, no trecho: 
 
 ```
@@ -42,7 +44,9 @@ No teste, é criada uma string que simula a declaração de duas variaves, no tr
  
  ###### Teste 3
 A seguir é testada uma funcionalidade substitui um código com bases na verificação regras configuradas do ESLint:
+
 ![image](https://user-images.githubusercontent.com/32281559/146295002-37701669-89c0-4e7b-b81e-0dbe9720ccb2.png)
+
 O método testado é o _verifyAndFix_ , nele é passado como primeiro parâmetro uma string que simula a declaração de uma variável sem ponto final no fim da linha, o segundo parâmetro é justamente a regra que padroniza pontos vírgulas ao final das linhas. Com isso, o teste se o retorno do método será a string passada com o acréscimo de um ponto vírgula no final.
 
 
